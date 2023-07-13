@@ -1,0 +1,671 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+.Maincontiner{
+    height: 100vh;
+    background:rgba(0,0,0,0.7)url(asset/image/background.jpg) no-repeat center center;
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+/*manu bar start*/
+
+.manu_bar{
+    background: #1515159c;
+    width: 100%;
+}
+.manu_bar ul {
+	display: inline-flex;
+	float: right;
+	margin-right:16%;
+}
+.manu_bar li {
+    padding: 10px 28px;
+    cursor: pointer;
+    list-style: none;
+}
+.manu_bar li a{
+	 text-decoration: none;
+	 color: white;
+}
+.manu_bar li:hover{
+	background: orange;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+/*logo start*/
+img.logo {
+    height: 57px;
+    width: 96px;
+    border-radius: 10px;
+    margin: 7px 0px 0 27px;
+}
+span.logo_tag {
+    color: #7aff00;
+    font-size: 26px;
+    font-family: arial black;
+    padding: 17px 8px;
+    position: absolute;
+}
+/*logo end*/
+
+/*logOut css start*/
+button.logOut {
+    position: absolute;
+    top: 18px;
+    right: 27px;
+    background: #7aff00;
+    padding: 8px;
+    border: navajowhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logOut a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*logOut css end*/
+
+/*manu bar end*/
+
+/*content section start*/
+
+.continer {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+.continer h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+p.detl {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+span#dgin {
+    color: #ff00b1;
+}
+/*content section end*/
+
+/*danimic text effect start*/
+
+.warpper {
+    position: absolute;
+    top: 66%;
+    left: 37%;
+    display: inline-flex;
+    background: #0e00ff;
+    border-radius: 10px;
+}
+.static-txt {
+    color: #f30707;
+    font-size: 26px;
+    margin: 18px 0px -5px 10px;
+}
+.dinamic-txt {
+    overflow: hidden;
+    height: 32px;
+}
+.dinamic-txt li {
+    color: white;
+    font-size: 22px;
+    list-style: none;
+    margin-left: -29px;
+    position: relative;
+    top: -3px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    animation: slide 10s steps(5) infinite;
+}
+@keyframes slide{
+	100%{
+		top: -200px;
+	}
+}
+dinamic-txt li span{
+	position: relative;
+}
+.dinamic-txt li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #0e00ff;
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid;
+    animation: typing 2s steps(13) infinite;
+}
+@keyframes typing{
+	100%{
+		left: 100%;
+	}
+}
+/*danimic text effect end*/
+
+
+/*section 2 start*/
+.sec-2 {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(32 125 190) 43%, rgb(255 255 255) 0%);
+}
+.sec-2 h1 {
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline;
+    color: white;
+}
+.dtlsContiner {
+    margin-left: 166px;
+}
+.exmDtls {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 49px 57px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px -12px;
+    transform: rotate(45deg);
+}
+.exmDtls:hover{
+    background: #0f7ac2;
+    color: white;
+    transition: all 0.2s;
+}
+div#position {
+    position: absolute;
+    top: 264px;
+    left: 324px;
+}
+#position_2{
+    position: absolute;
+    top: 264px;
+    left: 50.5%;    
+}
+.exmDtls img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.exmDtls h2 {
+    position: absolute;
+    transform: rotate(-45deg);
+    text-align: center;
+    top: 48px;
+    left: 28px;
+    font-family: arial black;
+}
+
+/*section 2 end*/
+
+/*footer css start*/
+
+.ftrContiner {
+    position: absolute;
+    top: 207%;
+    background: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/*footer css end*/
+
+
+                    /*ADMIN LOGIN PAGE CSS START*/
+.fromBodyBckg{
+    width: 100vw;
+    height: 100vh;
+    background: #0a33ff;;
+}
+.formContiner {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0 10px 20px -6px;
+    border-radius: 5px;
+}
+.formContiner h1 {
+    font-family: arial black;
+    text-align: center;
+    text-decoration: underline;
+    background: #01d1ff;
+    margin: auto;
+    margin-bottom: 57px;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+.formContiner .AdminInput {
+    width: 75%;
+    padding: 7px 18px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #01d1ff;
+    outline: none;
+}
+.formContiner input[type="submit"] {
+    width: 225px;
+    height: 36px;
+    margin: 35px 0px 25px 35px;
+    background: #01d1ff;
+    font-size: 15px;
+    font-family: arial black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.AdminftrContiner {
+    background: black;
+    width: 98.4%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 145px;
+}
+
+                    /*ADMIN LOGIN PAGE CSS END*/
+
+                    /*Admin Deshbord page css start*/
+
+
+.topTitle h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.topTitle li {
+    margin: 22px 0px;
+}
+.topTitle a {
+    text-decoration: none;
+    color: white;
+}
+
+                    /*Admin Deshbord page css end*/
+
+                    /*table section css start*/
+h1.pgTitle {
+    text-align: center;
+    color: #009897;
+    text-decoration: underline;
+}
+button.btn{
+    float: right;
+    padding: 9px;
+    font-family: arial black;
+    background: #009897;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-top: -72px;
+    cursor: pointer;
+}
+.content-table {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+.content-table th {
+    background: #009897;
+    padding: 10px;
+    color: white;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background: #f3f3f3;
+}
+.content-table tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+                    /*table section css end*/
+
+                    /*Add exam section css start*/
+
+.add_que {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background: white;
+    box-shadow: 0 10px 20px -6px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.add_que h4 {
+    background: #ddd;
+    padding: 10px;
+    color: green;
+    text-align: center;
+}
+.add_que input[type="number"] {
+    width: 112px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 5px;
+}
+.add_que input[type="text"] {
+    width: 91%;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 5px;
+}
+.button {
+    width: 140px;
+    color: white;
+    background: #009897;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 23px 180px;
+}
+label.qusLable {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+                    /*Add exam section css end*/
+
+                    /*Question page css start*/
+.questions {
+    margin: 17px;
+}
+.questions h3 {
+    text-align: center;
+    background: #00ddff;
+    padding: 15px;
+}
+.questions h4 {
+    background: #ddd;
+    padding: 10px;
+}
+.questions input[type="radio"] {
+    margin-left: 17px;
+    cursor: pointer;
+}
+.questions input[type="submit"] {
+    margin: 50px;
+    padding: 16px;
+    width: 178px;
+    background: #00ddff;
+    border: none;
+    font-family: arial black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+                    /*Question page css end*/
+
+                    /*login signup form start*/
+
+.login-wrap{
+    width:100%;
+    margin:auto;
+    max-width:525px;
+    min-height:670px;
+    position:relative;
+    
+
+}
+.login-html{
+    width:100%;
+    height:80%;
+    position:absolute;
+    padding:90px 70px 50px 70px;
+    background:rgba(40,57,101,.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    transform:rotateY(180deg);
+    backface-visibility:hidden;
+    transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+    display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .Loginbutton{
+    text-transform:uppercase;
+}
+.login-html .tab{
+    font-size:22px;
+    margin-right:15px;
+    padding-bottom:5px;
+    margin:0 15px 10px 0;
+    display:inline-block;
+    border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+    color:#fff;
+    border-color:#1161ee;
+}
+.login-form{
+    min-height:345px;
+    position:relative;
+    perspective:1000px;
+    transform-style:preserve-3d;
+}
+.login-form .group{
+    margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .Loginbutton{
+    width:100%;
+    color:#fff;
+    display:block;
+}
+.login-form .group .input,
+.login-form .group .Loginbutton{
+    border:none;
+    padding:15px 20px;
+    border-radius:25px;
+    background:rgba(255,255,255,.1);
+    cursor: pointer;
+}
+.login-form .group input[data-type="password"]{
+    text-security:circle;
+    -webkit-text-security:circle;
+}
+.login-form .group .label{
+    color:#aaa;
+    font-size:12px;
+}
+.login-form .group .Loginbutton{
+    background:#1161ee;
+}
+.login-form .group label .icon{
+    width:15px;
+    height:15px;
+    border-radius:2px;
+    position:relative;
+    display:inline-block;
+    background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+    content:'';
+    width:10px;
+    height:2px;
+    background:#fff;
+    position:absolute;
+    transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+    left:3px;
+    width:5px;
+    bottom:6px;
+    transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+    top:6px;
+    right:0;
+    transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+    color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+    background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+    transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+    transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+    transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+    transform:rotate(0);
+}
+
+.hr{
+    height:2px;
+    margin:60px 0 50px 0;
+    background:rgba(255,255,255,.2);
+}
+.pwdNtMch {
+    text-align: center;
+    color: red;
+    margin-top: -90px;
+    color: #f94b4b;
+    font-size: 15px;
+}
+                    /*login signup form end*/
+
+                    /*contect page css start*/
+
+.cont_Min_Bd {
+    height: 100vh;
+    background: #f3e0e2;
+}
+.cont_area {
+    width: 55%;
+    height: 65%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -36%);
+    box-shadow: 0 6px 14px -4px;
+}
+.contLeft {
+    height: 100%;
+    width: 50%;
+    background: white;
+    float: left;
+}
+.contRight {
+    height: 100%;
+    background: linear-gradient(45deg, #fd4647, #fb3d68);
+}
+.contRight h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 115px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.contRight p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.inputBox {
+    margin-top: 40px;
+}
+.inputBox h5 {
+    margin: auto;
+    text-align: center;
+    color: #2c2a2a;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.inputBox input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin: 12px 20px;
+    background: #cfccccee;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.inputBox textarea {
+    width: 84%;
+    margin: 6px 20px;
+    outline: none;
+}
+.inputBox input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(45deg, #fc4352, #fb3e68);
+    border-radius: 5px;
+    margin: 14px 0px 0px 122px;
+    cursor: pointer;
+    font-family: arial black;
+}
+                    /*contect page css end*/
+
+                    /*result page css start*/
+
+.resultHero {
+    width: 36%;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: linear-gradient(45deg, #28bbf9cc, #05daf687);
+    box-shadow: 0 10px 20px -10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.resultHero  h2 {
+    padding-top: 55px;
+    font-family: arial black;
+    text-decoration: underline;
+}
+
+                    /*result page css end*/

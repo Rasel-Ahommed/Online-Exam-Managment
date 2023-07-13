@@ -1,0 +1,39 @@
+OS computer abbreviation usually means?
+(A) Order of Significance
+(B) Open Software
+(C) Operating System
+(D) Optical Sensor
+Correct Answer
+Answer: Option C
+
+.MOV extension refers usually to what kind of file?
+(A) Image file
+(B) Animation/movie file
+(C) Audio file
+(D) MS Office document
+Correct Answer
+Answer: Option B
+
+ .MPG extension refers usually to what kind of file?
+(A) Word Perfect Document file
+(B) MS Office document
+(C) MS Office document
+(D) Image file
+Correct Answer
+Answer: Option C
+
+What is part of a database that holds only one type of information?
+(A) Report
+(B) Field
+(C) Record
+(D) File
+Correct Answer
+Answer: Option B
+
+ Who developed Yahoo?
+(A) Dennis Ritchie & Ken Thompson
+(B) David Filo & Jerry Yang
+(C) Vint Cerf & Robert Kahn
+(D) Steve Case & Jeff Bezos
+Correct Answer
+Answer: Option B
